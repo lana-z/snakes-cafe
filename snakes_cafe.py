@@ -45,7 +45,9 @@ def cafe_guest():
 ************************************
 ** Your order will be ready soon. **
 ** Here's what's coming up:       **
+                  
 {order}
+
 ************************************""")
             break
         order[guest_input] = order.get(guest_input, 0) + 1
